@@ -1,0 +1,55 @@
+/* src/WelcomeMessage.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden; /* Prevents scrollbars */
+}
+
+.left-col, .right-col {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    width: 80%; /* Adjust as needed */
+    max-width: 400px; /* Maximum width of the form */
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.btn {
+    margin-bottom: 1rem;
+}
+
+.left-col {
+    background-color: #e0e0e0; /* Light background */
+}
+
+.right-col {
+    background-color: #2b2b2b; /* Dark background */
+}
+
+.btn-block {
+    width: 100%;
+}
+
+#google {
+    background-color: #ffffff;
+}
+
+#google:hover {
+    background-color:#d6d6d6;
+    color: #2b2b2b;
+}

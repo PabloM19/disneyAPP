@@ -1,0 +1,38 @@
+html {
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.character-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.character-card img {
+    max-height: 200px; /* Limitar el tamaño de la imagen */
+    object-fit: cover;
+}
+
+.character-card .card-body {
+    flex-grow: 1;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 100%;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.navbar{
+    color: white;
+}
